@@ -4,4 +4,4 @@
 // 5. db.bios.find({ "awards.award": "Turing Award" })
 // 6. db.bios.find({ _id: { $gt: 3, $lt: 7 } })
 // 7. db.bios.find({ "awards.year": { $lt: 2000 }})
-// 8. db.bio.find({ $and: [{ "birth": {$exists:true}}, {"death": {$exists:false}}]})
+// 8. db.bio.find({ $and: [{ birth: {$exists:true}}, {death: {$exists:false}}]})
